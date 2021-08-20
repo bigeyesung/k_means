@@ -1,0 +1,55 @@
+1. Implement a k-means algorithm
+2. Implement L2 norm
+2. Implement L1 norm
+
+
+ unsupervised machine learning
+ When to use k-means clustering to analyze your data
+ How to select a meaningful number of clusters
+
+
+three popular categories of clustering algorithms:
+    Partitional clustering
+    Hierarchical clustering
+    Density-based clustering
+
+
+Partitional clustering:
+    These techniques require the user to specify the number of clusters,
+    nondeterministic: roduce different results from two separate runs
+    strengths:
+
+    They work well when clusters have a spherical shape.
+    They’re scalable with respect to algorithm complexity.
+    weaknesses:
+
+    They’re not well suited for clusters with complex shapes and different sizes.
+    They break down when used with clusters of different densities.
+
+Hierarchical Clustering
+    Agglomerative clustering is the bottom-up approach.
+    Divisive clustering is the top-down approach.
+    dendrogram: a tree-based hierarchy of point
+    deterministic
+    strengths:
+        They often reveal the finer details about the relationships between data objects.
+        They provide an interpretable dendrogram.
+    weakness:
+        They’re computationally expensive with respect to algorithm complexity.
+        They’re sensitive to noise and outliers.
+
+Density-Based Clustering
+    based on the density of data points in a region.
+    doesn’t require the user to specify the number of clusters.
+    Density-Based Spatial Clustering of Applications with Noise(DBSCAN)
+    rdering Points To Identify the Clustering Structure(OPTICS)
+    strengths:
+        They excel at identifying clusters of nonspherical shapes.
+        They’re resistant to outliers.
+    weaknesses:
+        They aren’t well suited for clustering in high-dimensional spaces.
+        They have trouble identifying clusters of varying densities.
+
+
+
+
